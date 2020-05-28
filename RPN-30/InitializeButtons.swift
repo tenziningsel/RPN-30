@@ -63,7 +63,7 @@ extension Calculator {
             threeButton.operationString = "1/x"
             fourButton.operationString = "%"
             fiveButton.operationString = "% ∆"
-            sixButton.operationString = "% T"
+            sixButton.operationString = "log2 x"
             sevenButton.operationString = "e^x"
             eightButton.operationString = "ln x"
             nineButton.operationString = "y ^ x"

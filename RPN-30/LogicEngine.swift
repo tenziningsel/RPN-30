@@ -77,9 +77,9 @@ extension Calculator {
             xRegisterNew = tgamma(xRegister + 1)
             unaryAction = true
         case "log10 x":
-            xRegisterNew = logC(val:xRegister, forBase:10.0)
+            xRegisterNew = log10(xRegister)
             unaryAction = true
-        case "log x":
+        case "log2 x":
             xRegisterNew = logC(val:xRegister, forBase:2.0)
             unaryAction = true
 
